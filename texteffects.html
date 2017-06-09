@@ -14,6 +14,19 @@
   <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
 </head>
 <body align="center">
+<script type="text/javascript">
+    function selectText(containerid) {
+        if (document.selection) {
+            var range = document.body.createTextRange();
+            range.moveToElementText(document.getElementById(containerid));
+            range.select();
+        } else if (window.getSelection) {
+            var range = document.createRange();
+            range.selectNode(document.getElementById(containerid));
+            window.getSelection().addRange(range);
+        }
+    }
+</script>
 <heading>
 <div id="header">
 <a href="index.html"><img src="images/logo.png" alt="Logo" class="logo"></a>
@@ -31,25 +44,23 @@
 
   <div class="container">
 <noscript>Inorder to use this website you must enable javascript See This: <a href="/enablejs.html">How To Enable Javascript?</a></noscript><br>
-    <textarea placeholder="Your Text Here!" id="txt" rows="5" cols="50"  onkeyup="start()" name="txt"></textarea><br>
-    <input type="submit" value="Start" onclick="start()"><br>
-     <textarea placeholder="уσυя συтρυт нєяє!" id="o1" rows="5" cols="50"  ></textarea>
-     <textarea placeholder="чσur σutput hєrє!" id="o2" rows="5" cols="50"  ></textarea>
-     <textarea placeholder="ΥӨЦЯ ӨЦTPЦT ΉΣЯΣ!" id="o3" rows="5" cols="50"  ></textarea>
-     <textarea placeholder="א๏ยг ๏ยtקยt ђєгє!" id="o4" rows="5" cols="50"  ></textarea>
-     <textarea placeholder="yoυr oυтpυт нere!" id="o5" rows="5" cols="50"  ></textarea>
-      <textarea placeholder="ýőúŕ őútpút héŕé!" id="o6" rows="5" cols="50"  ></textarea>
-      <textarea placeholder="ÿöür öütpüt hërë!" id="o7" rows="5" cols="50"  ></textarea>
-      <textarea placeholder="ⓨⓞⓤⓡ ⓞⓤⓣⓟⓤⓣ ⓗⓔⓡⓔ!" id="o8" rows="5" cols="50"  ></textarea>
-      <textarea placeholder="YŐÚŔ ŐÚŤРÚŤ HEŔE!" id="o9" rows="5" cols="50"  ></textarea>
-      <textarea placeholder="ʎonɹ onʇdnʇ ɥǝɹǝ¡" id="o10" rows="5" cols="50"  ></textarea>
-      <textarea placeholder="ﾘou尺 ouｲｱuｲ ん乇尺乇!" id="o11" rows="5" cols="50"  ></textarea>
-      <textarea placeholder="Y0UR 0U7PU7 H3R3!" id="o12" rows="5" cols="50"  ></textarea>
-       <textarea placeholder="YOᑌᖇ OᑌTᑭᑌT ᕼᕮᖇᕮ!" id="o13" rows="5" cols="50"  ></textarea>
-        <textarea placeholder="YOᙀᖇ OᙀTᑭᙀT ᕼᙓᖇᙓ!" id="o14" rows="5" cols="50"  ></textarea>
-        <textarea placeholder="᙭ᘉᖶᕴ ᘉᖶSᓍᖶS ᕼᘿᕴᘿ." id="o15" rows="5" cols="50"  ></textarea>
-        <textarea placeholder="ყօմɾ օմէրմէ հεɾε!" id="o16" rows="5" cols="50"  ></textarea>
-        <p>More Styles Soon...</p>
+    <div class="select">
+<div id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</div>
+<div id="selectable" onclick="selectText('selectable')">¯¯̿̿¯̿̿'̿̿̿̿̿̿̿'̿̿'̿̿̿̿̿'̿̿̿)͇̿̿)̿̿̿̿ '̿̿̿̿̿̿\̵͇̿̿\=(•̪̀●́)=o/̵͇̿̿/'̿̿ ̿ ̿̿</div>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+<span id="selectable" onclick="selectText('selectable')">( ˘ ³˘)❤</span>
+    </div>
 
   <footer>
 <div id="footer">
@@ -58,5 +69,6 @@
   <p class="p">With Aeon Text you can generate cool fonts and texts for your website and social sites like facebook, twitter, googleplus. get bunch of free stickers and cool collections of texts for your websites and facebook</p>
 </div>
   </footer>
+ 
 </body>
 </html>
